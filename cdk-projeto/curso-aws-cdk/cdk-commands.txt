@@ -1,0 +1,9 @@
+cdk bootstrap == vincula usuario local a conta no aws console
+
+cdk list == lista todas as stacks disponiveis
+
+cdk deploy "stack" == provisiona a stack informada
+
+cdk deploy Vpc Cluster == provisiona as duas stacks informadas
+
+cfk diff == verifica as diferencas entre o projeto atual e a conta da aws
